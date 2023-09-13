@@ -1,0 +1,1 @@
+let navbarGeneral = document.getElementById("navbarGeneral");

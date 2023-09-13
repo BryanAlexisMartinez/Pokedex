@@ -1,0 +1,39 @@
+/* ======= NAVBAR ======== */
+header{
+    background-color: #ffffff;
+
+}
+
+
+/* ======= BODY ======== */
+
+body {
+    background-color: #616161; /* Establece el fondo de toda la página en negro */
+    display: flex; /* Utiliza el modelo de caja flexible para el body */
+    flex-direction: column; /* Los elementos dentro del body se apilan verticalmente */
+    min-height: 100vh; /* Establece el mínimo alto de la ventana gráfica (viewport height) */
+    margin: 0; /* Elimina cualquier margen predeterminado del body */
+}
+
+/* ======= FOOTER ======== */
+
+footer {
+    background-color: #ffffff; /* Establece el fondo del footer en blanco */
+    color: #000000; /* Establece el color de texto del footer en negro */
+    text-align: center; /* Alinea el texto en el centro del footer */
+    padding: 20px; /* Agrega un relleno interno de 20 píxeles alrededor del contenido del footer */
+    justify-content: center; /* Centra verticalmente el contenido del footer (utilizado en combinación con display: flex) */
+    display: flex; /* Utiliza el modelo de caja flexible para el footer */
+    margin-top: auto; /* Empuja el footer hacia abajo hasta la parte inferior del viewport (ventana gráfica) */
+    flex-direction: column; /* Cambia a dirección vertical para apilar elementos */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilos para los enlaces (links) dentro de las listas no ordenadas (ul) dentro del footer */
+footer ul li a {
+    padding: 0 1rem 0 1rem; /* Establece un relleno en los enlaces dentro del footer */
+}
+
+footer p {
+    margin-top: 10px; /* Agrega un margen superior para separar el párrafo de los iconos */
+}
